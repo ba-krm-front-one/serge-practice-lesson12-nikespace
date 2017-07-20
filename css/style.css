@@ -1,0 +1,328 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+   background: #3c4955 url(../img/bg1.png) 100% no-repeat;
+    /*background-image: linear-gradient(-45deg, #fff, #000) ;*/
+    background-size: cover;
+    position: static;
+    z-index: 1;
+    width: 100%;
+}
+.logo {
+    margin-left: 66px;
+    z-index: 2;
+    text-align: left;
+    position: relative;
+    top: 26px;
+/*________БЛОК НАВИГАЦИИ_____________*/
+}
+.nav li {
+    display: inline;
+    position: relative;
+    margin-left: 40px;
+
+}
+.nav {
+    margin-left: 270px;
+}
+.nav__life, .nav__run, .nav__football, .nav__skate {
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    text-transform: uppercase;
+    clear: left;
+    padding-right: 10px;
+    margin-top: -10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.nav__life:hover, .nav__run:hover, .nav__football:hover, .nav__skate:hover {
+    text-decoration: underline;
+    transform: scale(1.3);
+    cursor: auto;
+    display: inline-block;
+}
+.nav__menu {
+    position: absolute;
+    margin-left: 991px;
+    margin-top: -25px;
+}
+.nav__menu:hover {
+    transform: scale(1.2);
+    cursor: auto;
+    display: inline-block;
+}
+/*__________________________карта фон.зад._______________*/
+.main {
+    background: url(../img/card-23.png) no-repeat;
+    position: static;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-top: 32px;
+}
+/*_______левый блок с содержимым_______*/
+.main__leftcard {
+    background-image: linear-gradient(180deg, #d4d1d3 -10px, #F4F4F4 50%);
+    position: relative;
+    width: 502px;
+    height: 428px;
+    margin-left: 60px;
+    background-color: gainsboro;
+}
+.main__sneaks {
+    background: url("../img/img-h.png") no-repeat;
+    width: 415px;
+    height: 239px;
+    padding-left: 44px;
+    padding-top: 105px;
+    position: relative;
+    top: 95px;
+    left: 36px;
+    z-index: 6;
+    color: #F4F4F4;
+}
+.main__lapy {
+    background: url("../img/lapy.png") no-repeat;
+    width: 464px;
+    height: 160px;
+    position: relative;
+    margin-top: -165px;
+    margin-left: 35px;
+    padding-top: 150px;
+    padding-left: 60px;
+    z-index: 4;
+}
+.main__pic1{
+    background: url("../img/img.png") no-repeat;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 125px;
+    left: 170px;
+    padding-left: 55px;
+    padding-top: 42px;
+    color: #f4f4f4;
+    z-index: 7;
+}
+.main__pic2 {
+    background: url("../img/img2.png") no-repeat;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 125px;
+    left: 170px;
+    padding-left: 55px;
+    padding-top: 42px;
+    color: #f4f4f4;
+    z-index: 7;
+}
+.main__pic3 {
+    background: url("../img/img3.png") no-repeat;
+    width: 42px;
+    height: 42px;
+    position: relative;
+    top: 125px;
+    left: 170px;
+    padding-left: 55px;
+    padding-top: 42px;
+    color: #f4f4f4;
+    z-index: 7;
+}
+.main__pic1, .main__pic2, .main__pic3 {
+    display: inline-block;
+}
+.main__pic1:hover, .main__pic2:hover, .main__pic3:hover {
+    transform: scale(1.2);
+    cursor: auto;
+    display: inline-block;
+}
+.main__plus {
+    background: url("../img/plus.png") no-repeat;
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    left: 445px;
+    top: 325px;
+    color: #f4f4f4;
+    padding-top: 25px;
+    display: inline-block;
+}
+.main__plus:hover {
+    transform: scale(1.4);
+    cursor: auto;
+    position: absolute;
+}
+/*_________________правый блок с содержимым________*/
+.main__close {
+    position: absolute; 
+    margin-left: 222px;
+    margin-top: 9px;
+}
+.main__close:hover {
+    background-color: #b9282a;
+}
+.main__rightcard {
+    position: absolute;
+    width: 248px;
+    height: 428px;
+    background-color: #ffffff;
+    margin-left: 561px;
+    margin-top: -428px;
+    display: inline-block;
+}
+.main__huarache {
+   /* width: 434px;
+    height: 62px;*/
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    font-size: 78px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 106px;
+    margin-top: -355px;
+    z-index: 3  ;
+}
+.main__new {
+    width: 42px;
+    height: 24px;
+    background-color: #ffa60d;
+    padding-left: 6px;
+    padding-top: 4px;
+    margin-left: 31px;
+    margin-top: 43px;
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.main__therun {
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-left: 31px;
+    margin-top: 12px;
+}
+.main__running {
+    color: #5e4fff;
+    margin-left: 50px;
+    margin-top: -29px;
+}
+.main__huarrache {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 31px;
+    margin-top: 12px;
+}
+/*---------------*--------------*/
+.main__stars {
+    color: #7f7f7f;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.main__stars {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+.main__stars > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+.main__stars > span:hover:before,
+.main__stars > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    color: black;
+    cursor: auto;
+}
+.main__money {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    margin-left: 32px;
+    margin-top: 18px;
+}
+.main__size {
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 31px;
+    margin-top: 26px;
+}
+.main__allsizes {
+    display: inline-block;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 31px;
+}
+/*.main__allsizes:nth-child(-n+4) {      not working
+    padding-right: 46px;
+}*/
+.main__numb {
+   text-align: center;
+    padding-top: 2px;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid white;
+    background: transparent;
+}
+.main__numb:hover {
+    border: 1px solid #0f0f0f;
+    background: transparent;
+}
+.main__numb:active {
+    color: white;
+    background-color: black;
+    background: transparent;
+}
+.main__add {
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 57px;
+    margin-top: 45px;
+    border: none;
+    width: 118px;
+    height: 30px;
+    background-color: #a200b8;
+}
+.main__wish {
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 57px;
+    margin-top: 5px;
+    border: solid 1px black;
+    width: 118px;
+    height: 30px;
+    background-color: #ffffff;
+}
+.main__add:hover {
+    background-image: linear-gradient( 180deg, #a200b8 -10px, #b82d45 50%);
+}
+.main__wish:hover {
+    background-image: linear-gradient(180deg, #e0a6ff -10px, #ecc4ff 50%);
+}
+
+
